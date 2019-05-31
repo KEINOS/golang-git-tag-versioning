@@ -16,8 +16,8 @@ echo $version_app > $name_file_version
 
 # git add and commit
 git add . && \
-git commit -m "feat: ${name_version}" && \
-git tag $name_version && \
+git commit -m "feat: ${version_app}" && \
+git tag $version_app && \
 git push --tags && \
 git push origin && \
 echo 'Done.'
