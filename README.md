@@ -11,10 +11,10 @@ I don't. I want to **use the version defined in `git tag` and include them durin
 So, this is a sample to see how to include them during the build on Docker Cloud and release it on Docker Hub.
 
 ```shellsession
-$ docker run --rm keinos/git-tag-versioning
+$ docker run --rm keinos/get-my-version
 v0.0.1-20190531.1548
 $
-$ docker run --rm -it --entrypoint /bin/sh keinos/git-tag-versioning
+$ docker run --rm -it --entrypoint /bin/sh keinos/get-my-version
 / # which get-my-version
 /usr/local/bin/get-my-version
 / #
