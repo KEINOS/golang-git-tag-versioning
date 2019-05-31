@@ -1,3 +1,4 @@
+[![](https://images.microbadger.com/badges/image/keinos/alpine.svg)](https://microbadger.com/images/keinos/alpine "View image info on microbadger.com")
 [![](https://img.shields.io/docker/cloud/automated/keinos/get-my-version.svg)](https://hub.docker.com/r/keinos/get-my-version "View on Docker Hub")
 [![](https://img.shields.io/docker/cloud/build/keinos/get-my-version.svg)](https://hub.docker.com/r/keinos/get-my-version/builds "View tags on Docker Hub")
 
