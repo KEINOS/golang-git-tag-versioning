@@ -19,7 +19,7 @@ git add . && \
 git commit -m "feat: ${name_version}" && \
 git tag $name_version && \
 git push --tags && \
-git push orign && \
+git push origin && \
 echo 'Done.'
 
 echo 'Now go to Docker Cloud\s repo and see the build.'
