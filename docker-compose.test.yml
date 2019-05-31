@@ -1,0 +1,5 @@
+sut:
+  build: .
+  volumes:
+    - ./src/run-test.sh:/run-test.sh
+  entrypoint: /run-tests.sh
